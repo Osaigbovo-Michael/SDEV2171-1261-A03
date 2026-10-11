@@ -47,6 +47,30 @@ export default function App() {
               placeholderTextColor="#7d7368"
             />
           </View>
+
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>Why `ScrollView` is here</Text>
+            <Text style={styles.sectionBody}>
+              This screen is simple, but `ScrollView` gives a safe structure when the content becomes taller
+              than one screen.
+            </Text>
+            <Text style={styles.sectionBody}>
+              I am trying to find out what happens when page content go beyond the screen size.
+              yoooo, its not working, what the flip is going on.
+            </Text>
+          </View>
+
+          <View style={styles.section}>
+            <Text style={styles.sectionTitle}>Why `ScrollView` is here</Text>
+            <Text style={styles.sectionBody}>
+              This screen is simple, but `ScrollView` gives a safe structure when the content becomes taller
+              than one screen.
+            </Text>
+            <Text style={styles.sectionBody}>
+              I am trying to find out what happens when page content go beyond the screen size.
+              yoooo, its not working, what the flip is going on.
+            </Text>
+          </View>
         </View>
       </ScrollView>
     </View>
